@@ -49,6 +49,7 @@ const App = () => {
           />
         ) // <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
         } */}
+        {console.log("debug")}
       </section>
     </div>
   );
