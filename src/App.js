@@ -11,6 +11,7 @@ const App = () => {
   ]);
 
   const addGoalHandler = enteredText => {
+
     setCourseGoals(prevGoals => {
       const updatedGoals = [...prevGoals];
       updatedGoals.unshift({ text: enteredText, id: Math.random().toString() });
@@ -49,7 +50,6 @@ const App = () => {
           />
         ) // <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
         } */}
-        {console.log("debug")}
       </section>
     </div>
   );
